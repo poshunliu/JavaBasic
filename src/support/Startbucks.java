@@ -1,6 +1,6 @@
 package support;
 
-public class Startbucks implements CoffeeShop, Decoration{
+public class Startbucks implements CoffeeShop, Decoration<String>{
 
     @Override
     public void type() {
@@ -37,5 +37,15 @@ public class Startbucks implements CoffeeShop, Decoration{
     @Override
     public void wallpaper() {
 
+    }
+
+    @Override
+    public String saleGiftCard() {
+        return null;
+    }
+
+    @Override
+    public void useCard(String s) {
+        System.out.println(s);
     }
 }

@@ -1,8 +1,7 @@
 package agolorithm;
 
 
-class CheckChar {
-
+public class CheckChar {
 
     private char output;
 
